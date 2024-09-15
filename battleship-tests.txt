@@ -1,0 +1,27 @@
+# Test 1 (regular)
+# This tests the program's behavior when a ship is placed on the board
+D 0 0 0 2
+# End of test
+
+# Test 2 (regular)
+# This tests the program's behavior when a guess is made
+0 0
+# End of test
+
+# Test 3 (error)
+# This tests whether the program can handle invalid ship placement
+D 0 0 0 5
+# End of test
+
+# Test 4 (error)
+# This tests whether the program handles out of bounds guesses
+10 10
+# End of test
+
+# Test 5 (edge case)
+# This tests whether the program can handle sinking of a ship
+D 0 0 0 2
+0 0
+0 1
+0 2
+# End of test
